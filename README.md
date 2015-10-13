@@ -11,14 +11,15 @@ Primary script.  Must call with command line flag '-c' followed by config file p
 Configuration file.  Default values for required fields provided.  Run 'commentQuery.py' -h for list of requirements.
 
 EXAMPLE USAGE
+
 python /scripts/commentQuery.py -c "/path/to/config.json"
-  This would be a standard no-debug execution of the comment Query script
+----This would be a standard no-debug execution of the comment Query script
   
 python /scripts/commentQuery.py -h
-  Print help
+----Print help
 
 python /scripts/commentQuery.py -c "/path/to/config.json" -q "SELECT * FROM COMMENTS"
-  Manual execution of a query specified at the command line.
+----Manual execution of a query specified at the command line.
 
 python /scripts/commentQuery.py -c "/path/to/config.json" -d 3
-  Standard execution with 'level 3' debugging.  Debugging levels are subjective by author.
+----Standard execution with 'level 3' debugging.  Debugging levels are subjective by author.
