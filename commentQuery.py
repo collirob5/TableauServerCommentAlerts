@@ -200,7 +200,7 @@ def main(argv):
     colnames = [desc[0] for desc in cur.description]
     if args['debugFlag'] >= 2:
         print 'Query returned ' + str(len(rows)) + ' rows.'
-    if args['debugFlag'] >= 4:
+    if args['debugFlag'] >= 4 or 'query' in args:
         print 'Query Results:\n'
         print str(colnames)
         for row in rows:
