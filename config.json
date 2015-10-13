@@ -1,0 +1,10 @@
+{
+	"dbname": "workgroup",
+	"port": "8060",
+	"user": "readonly",
+	"password": "password",
+	"host": "tableau.somedomain.com",
+	"histFile":"/scripts/tableauComments/sentAlerts.txt",
+	"fromEmail":"tableau@somedomain.com",
+	"smtpHost":"smtp.somedomain.com"
+}
