@@ -1,6 +1,9 @@
 # TableauServerCommentAlerts
 This code queries a Tableau Server for comments and emails the owner and commenter when a comment is submitted.
 
+NOTE:  Before Tableau database queries will work you must enable the external access functionality within Tableau Server.  See here:
+http://onlinehelp.tableau.com/current/server/en-us/help.htm#adminview_postgres_access.htm
+
 ---commentQuery.py---
 Primary script.  Must call with command line flag '-c' followed by config file path.  Other flags available.  Use '-h' for help.
 
